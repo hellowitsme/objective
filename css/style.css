@@ -1,0 +1,143 @@
+body {
+  margin: 0 auto;
+  background: #f8f7fc;
+  color: white;
+  width: 60%; }
+  @media screen and (max-width: 414px) {
+    body {
+      width: 80%; } }
+  @media screen and (max-width: 768px) {
+    body {
+      width: 90%; } }
+
+h1 {
+  color: white;
+  font-size: 20px;
+  text-align: center; }
+
+h2 {
+  color: black;
+  font-size: 16px;
+  text-align: center; }
+
+form {
+  overflow: hidden; }
+
+input[type="submit"] {
+  border: 1px dotted white;
+  padding: 15px 30px;
+  background: black;
+  color: white; }
+  input[type="submit"]:hover {
+    background: #3d3938;
+    cursor: pointer; }
+
+.game-title {
+  text-align: center;
+  color: #333;
+  margin: 30px 0 15px 0; }
+
+.main-container {
+  background: black; }
+  .main-container .main-contents .start-container {
+    height: 300px;
+    margin-top: 30px; }
+    .main-container .main-contents .start-container .start-txt {
+      padding-top: 100px; }
+    .main-container .main-contents .start-container h2 {
+      color: white; }
+    .main-container .main-contents .start-container .start-btn {
+      text-align: center;
+      margin-top: 30px; }
+  .main-container .main-contents .god-container {
+    background-color: white;
+    color: black;
+    height: 200px;
+    padding: 30px 0; }
+    .main-container .main-contents .god-container .img-container {
+      height: 150px; }
+      .main-container .main-contents .god-container .img-container .img {
+        width: 120px;
+        height: 130px;
+        margin: 20px auto 0 auto;
+        display: block; }
+    .main-container .main-contents .god-container .hp {
+      font-size: 14px;
+      text-align: center;
+      color: black; }
+  .main-container .main-contents .human-container {
+    height: 300px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 30px; }
+    @media screen and (max-width: 414px) {
+      .main-container .main-contents .human-container {
+        height: 450px;
+        padding: 0; } }
+    .main-container .main-contents .human-container .knockdown {
+      margin-bottom: 10px; }
+      @media screen and (max-width: 414px) {
+        .main-container .main-contents .human-container .knockdown {
+          text-align: center;
+          margin-top: 10px; } }
+    .main-container .main-contents .human-container .human-name {
+      margin-bottom: 10px; }
+      @media screen and (max-width: 414px) {
+        .main-container .main-contents .human-container .human-name {
+          text-align: center; } }
+    .main-container .main-contents .human-container .human-form-container {
+      width: 50%;
+      float: left;
+      margin-top: 30px; }
+      @media screen and (max-width: 414px) {
+        .main-container .main-contents .human-container .human-form-container {
+          width: 100%;
+          float: none;
+          margin: 0; } }
+      .main-container .main-contents .human-container .human-form-container input {
+        display: block;
+        float: left; }
+        @media screen and (max-width: 414px) {
+          .main-container .main-contents .human-container .human-form-container input {
+            float: none;
+            width: 200px;
+            display: block;
+            margin: 0 auto; } }
+      .main-container .main-contents .human-container .human-form-container .attack {
+        float: left;
+        margin-right: 30px; }
+        @media screen and (max-width: 414px) {
+          .main-container .main-contents .human-container .human-form-container .attack {
+            float: none;
+            margin: 0 0 5px 0; } }
+      @media screen and (max-width: 414px) {
+        .main-container .main-contents .human-container .human-form-container .run {
+          margin: 0 0 5px 0; } }
+      .main-container .main-contents .human-container .human-form-container .restart {
+        margin-left: 40px;
+        margin-top: 50px; }
+        @media screen and (max-width: 414px) {
+          .main-container .main-contents .human-container .human-form-container .restart {
+            margin: 10px 0 0 0; } }
+    .main-container .main-contents .human-container .history {
+      box-sizing: border-box;
+      background-color: #fff;
+      color: black;
+      width: 30%;
+      float: left;
+      margin-top: 30px;
+      margin-left: 30px;
+      height: 100px;
+      overflow-y: scroll;
+      padding-left: 5px;
+      border-radius: 5px; }
+      @media screen and (max-width: 414px) {
+        .main-container .main-contents .human-container .history {
+          width: 70%;
+          height: 150px;
+          float: none;
+          margin: 30px auto; } }
+      @media screen and (max-width: 768px) {
+        .main-container .main-contents .human-container .history {
+          width: 40%;
+          height: 150px; } }
