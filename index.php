@@ -226,7 +226,7 @@ if(!empty($_POST)){
 <body>
   
 
-  <h1 class="game-title">「Defeat Gods!!」</h1>
+  <h1 class="game-title">「Defeat Gods」</h1>
     <main class="main-container">
       <div class="main-contents">
         <?php if(empty($_SESSION)){ ?>
